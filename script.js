@@ -1,6 +1,17 @@
 // complete the given function
 
 function palindrome(str){
-
+var res= str.toLowerCase().trim();
+	let start=0;
+	let end=res.length;
+	while(start<end){
+		if(start!=end){
+			return false;
+		}
+		else{
+			return true;
+		}
+	}
+	
 }
 module.exports = palindrome
