@@ -4,7 +4,7 @@ function palindrome(str){
 var res= str.toLowerCase();
 	let start=0;
 	let end=res.length;
-	while(start<end){
+	while(start<=end){
 		if(res.charAt(start)!=res.charAt(end){
 			return false;
 		}
