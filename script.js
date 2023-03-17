@@ -9,9 +9,11 @@ var res= str.toLowerCase();
 			return false;
 		}
 		else{
-			return true;
+			start++;
+			end--;
 		}
 	}
+	return true;
 	
 }
 module.exports = palindrome
