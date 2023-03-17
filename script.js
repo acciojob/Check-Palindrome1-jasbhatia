@@ -5,7 +5,7 @@ var res= str.toLowerCase();
 	let start=0;
 	let end=res.length;
 	while(start<end){
-		if(start!=end){
+		if(re.charAt(start)!=res.charAt(end){
 			return false;
 		}
 		else{
